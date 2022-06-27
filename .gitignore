@@ -1,0 +1,49 @@
+# Visual Studio Code
+.vscode
+
+#Node modules
+node_modules/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+*.xml
+
+# Java specific
+*.class
+
+# Netbeans stuff staff ignore
+nbproject/
+target/
+build/
+
+# # Generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.log
+buildNumber.properties
+
+# Package Files #
+*.jar
+*.war
+*.Ear
+IM360Posper/.classpath
+
+
+
+Hints/src/deploy.sh
+/Onlinemenu/coverage
+/SellTreez/coverage
+
+#AWS local config
+/aws
+
+/DispensaryPortal/src/portalDispensary/coverage
+
+#Prevent Deprecated Project from being added back in a merge
+/Menu
